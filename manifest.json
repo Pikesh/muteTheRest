@@ -1,0 +1,23 @@
+{
+"name":"Mute The Rest",
+"description":"To mute all other tabs across all windows of chrome",
+"version":"1",
+"icons":{
+  "128":"icons/icon128.png",
+  "48":"icons/icon48.png",
+  "16":"icons/icon16.png"
+},
+"browser_action": {
+   "default_icon": "icons/mute.png",
+   "default_popup": "popup.html"
+ },
+"manifest_version":2,
+"permissions":[
+  "http://*/*","https://*/*","storage"
+],
+"background":{
+  "scripts":[
+    "js/sourceCode.js"
+    ]
+}
+}
